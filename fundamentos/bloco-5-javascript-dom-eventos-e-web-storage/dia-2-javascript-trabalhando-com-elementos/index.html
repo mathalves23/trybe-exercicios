@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+</main>
+<script>
+
+  // PARTE I
+  //1
+  let ondeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+  //2
+  let pai = document.getElementById('elementoOndeVoceEsta').parentElement;
+  pai.style.color = "blue";
+  //3
+  let primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+  primeiroFilhoDoFilho.innerText = "Este é o primeiro filho do filho";
+  //4
+  let primeiroFilho = document.getElementById('pai').firstElementChild;
+  //5
+  let primeiroFilho2 = ondeVoceEsta.previousElementSibling;
+  //6
+  let atencao = document.getElementById('terceiroFilho').previousSibling;
+  //7
+  let terceiroFilho = ondeVoceEsta.nextElementSibling;
+  //8
+  let terceiroFilho2 = pai.lastElementChild.previousElementSibling;
+
+
+  // PARTE II
+  // 1
+  let irmaoElementoOndeVoceEsta = document.createElement('section');
+  irmaoElementoOndeVoceEsta.innerText = 'Irmão do Elemento Onde Voce Esta';
+  irmaoElementoOndeVoceEsta.id = 'irmaoElementoOndeVoceEsta';
+  pai.appendChild(irmaoElementoOndeVoceEsta);
+
+  // 2
+  let filhoElementoOndeVoceEsta = document.createElement('section');
+  filhoElementoOndeVoceEsta.innerText = 'Filho do Elemento Onde Voce Esta';
+  filhoElementoOndeVoceEsta.id = 'filhoElementoOndeVoceEsta';
+  ondeVoceEsta.appendChild(filhoElementoOndeVoceEsta);
+
+  // 3
+  let primeiroFilhoDoFilho2 = document.getElementById('primeiroFilhoDoFilho'); //acessou elemento pai
+  let filhoDoPrimeiroFilhoDoFilho = document.createElement('section'); // criou uma secction
+  filhoDoPrimeiroFilhoDoFilho.innerText = 'Filho do Primeiro Filho do Filho'; // colocou o texto conteúdo
+  filhoDoPrimeiroFilhoDoFilho.id = 'filhoDoPrimeiroFilhoDoFilho'; //definiu um ID para a secction
+  // primeiroFilhoDoFilho.appendChild(filhoDoPrimeiroFilhoDoFilho); //adicionou elemento a partir do pai
+  primeiroFilhoDoFilho.appen
+
+  // 4
+  let terceiroFilho3 = filhoDoPrimeiroFilhoDoFilho.parentElement.parentElement.nextElementSibling;
+
+</script>
+</html>
+

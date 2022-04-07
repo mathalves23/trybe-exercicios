@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(25, 48, 75);
+}
+
+form {
+  background-color: aliceblue;
+  width: 70%;
+  margin: auto;
+  border-radius: 0px 0px 30px 30px;
+}
+
+header {
+  background-color: aliceblue;
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 30px 30px 0px 0px;
+  margin-top: 30px;
+}
+
+#apto, #casa{
+  margin-left: 20px;
+}

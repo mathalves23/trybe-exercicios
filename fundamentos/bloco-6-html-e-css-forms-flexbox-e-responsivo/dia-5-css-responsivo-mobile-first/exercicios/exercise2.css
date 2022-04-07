@@ -1,0 +1,294 @@
+*  {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  }
+
+
+/* CSS PEQUENO */
+header {
+  display: block;
+  padding: 5px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(128, 128, 128, 0.459);
+  padding: 10px;
+}
+
+header ul li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+header p {
+  text-align: center;
+  background-color: rgba(53, 52, 52, 0.884);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.aside-one, .aside-two {
+  padding: 15px;
+}
+
+.aside-one h2, .aside-two h2 {
+  font-size: 1.3rem;
+}
+
+.aside-one ul, .aside-two ul {
+  margin: 10px 0 0 20px;
+}
+
+.aside-one ul li, .aside-two ul li {
+  margin-bottom: 4px;
+}
+
+.aside-two {
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.158);
+}
+
+.main-content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  text-align: justify;
+}
+
+.main-content h1 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.main-content p {
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: rgba(128, 128, 128, 0.459);
+  padding: 15px;
+  text-align: justify;
+}
+
+footer h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+footer p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+
+/* CSS MÉDIO */
+@media screen and (min-width: 750px) and (max-width: 1023px) {
+  body {
+    background-color: rgb(54, 54, 66);
+    color: white;
+  }
+
+  header p {
+    text-align: center;
+    background-color: rgba(53, 52, 52, 0.884);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 2.8rem;
+  }
+
+  header ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.459);
+    padding: 15px;
+    font-size: 1.5em;
+  }
+  header ul li {
+    margin-left: 30px;
+    list-style: none;
+  }
+
+  .aside-one, .aside-two {
+    padding: 20px;
+  }
+  
+  .aside-one h2, .aside-two h2 {
+    font-size: 1.7rem;
+  }
+  
+  .aside-one ul, .aside-two ul {
+    margin: 10px 0 0 20px;
+  }
+  
+  .aside-one ul li, .aside-two ul li {
+    margin-bottom: 4px;
+    font-size: 1.3rem;
+  }
+  
+  .aside-two {
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.158);
+  }
+  
+  .main-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    text-align: justify;
+  }
+  
+  .main-content h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .main-content p {
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+  }
+  
+  footer {
+    background-color: rgba(128, 128, 128, 0.459);
+    padding: 15px;
+    text-align: justify;
+  }
+  
+  footer h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+
+/* CSS GRANDE */
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: white;
+    color: white;
+  }
+
+  .tudo {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(53, 52, 52, 0.884);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 4rem;
+    color: white;
+    height: 180px;
+  }
+
+  header ul {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.459);
+    padding: 15px;
+    font-size: 1.5em;
+    color: black;
+  }
+  header ul li {
+    margin-left: 100px;
+    list-style: none;
+  }
+
+  .aside-one {
+    padding: 20px;
+    order: 1;
+    background-color: rgb(34, 33, 33);
+    width: 20%;
+  }
+  
+  .aside-one h2, .aside-two h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+  .aside-one ul, .aside-two ul {
+    margin: 10px 0 0 20px;
+  }
+  
+  .aside-one ul li, .aside-two ul li {
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+  }
+  
+  .aside-two {
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.158);
+    width: 20%;
+    order: 3;
+    background-color: grey;
+
+  }
+  
+  .main-content {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    text-align: justify;
+    order: 2;
+    background-color: white;
+    color: black;
+  }
+  
+  .main-content h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .main-content p {
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+  }
+  
+  footer {
+    background-color: rgba(128, 128, 128, 0.459);
+    padding: 15px;
+    text-align: justify;
+  }
+  
+  footer h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    color: black;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+  }
+
+
+}

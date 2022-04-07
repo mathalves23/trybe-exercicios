@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+h2 {
+    color: green;
+    font-size: 2em;
+ }
+
+ body {
+     background-color: rgb(255, 400, 200);
+     font-size: 14px;
+ }
+
+ #extinct-specie {
+     background-color: red;
+     color: yellow;
+
+ }
+
+ #description {
+     color: orange;
+ }
+
+ .list-style {
+     background-color: blue;
+     color: white;
+     font-weight: bold;
+     font-style: italic;
+     line-height: 40px;
+     text-align: center;
+     text-decoration: underline;
+ }
+
+ p {
+     font-family: monospace;
+ }
+
+ li {
+     list-style: none;
+ }

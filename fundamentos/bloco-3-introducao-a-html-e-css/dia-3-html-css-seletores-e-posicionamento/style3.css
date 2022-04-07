@@ -1,0 +1,62 @@
+div:hover {
+  border: solid black;
+}
+
+.div1 {
+  background-color: #E69563;
+}
+
+.div2 {
+  background-color: #415950;
+}
+
+.div3 {
+  background-color: #C9BA83;
+}
+
+.div4 {
+  background-color: #21292E;
+}
+
+.div5 {
+  background-color: #74AB96;
+}
+
+h3 {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+#h31 {
+  font-size: 25px;
+  ffont-family: 'Pacifico', cursive;
+}
+
+#h32 {
+  font-size: 29px;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#h33 {
+  font-size: 32px;
+  font-family: 'Ephesis', cursive;
+  padding: 25px;
+}
+
+#h34 {
+  font-size: 29px;
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+
+#h35 {
+  font-size: 29px;
+  font-family: 'Akronim', cursive;
+}
+
+#h31, #h33, #h35 {
+  font-style: italic;
+}
