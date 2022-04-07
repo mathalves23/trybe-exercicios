@@ -1,0 +1,1 @@
+DESCRIBE nome_da_tabela;

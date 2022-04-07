@@ -1,0 +1,1 @@
+SELECT * FROM sakila.nome_da_tabela;
