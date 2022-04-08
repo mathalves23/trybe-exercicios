@@ -1,0 +1,1 @@
+SELECT FLOOR(15 + (RAND() * 5));
