@@ -1,0 +1,4 @@
+SELECT DEPARTMENT_ID, AVG(SALARY) AS average, COUNT(*) AS number_of_employees
+FROM hr.employees
+GROUP BY DEPARTMENT_ID
+HAVING DEPARTMENT_ID > 10;

@@ -1,0 +1,4 @@
+SELECT JOB_ID, SUM(SALARY)
+FROM hr.employees
+GROUP BY JOB_ID;
+

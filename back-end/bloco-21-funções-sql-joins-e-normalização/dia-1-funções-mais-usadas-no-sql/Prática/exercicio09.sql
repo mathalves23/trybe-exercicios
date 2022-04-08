@@ -1,0 +1,4 @@
+SELECT JOB_ID, AVG(SALARY) AS average FROM hr.employees
+WHERE JOB_ID <> 'IT_PROG'
+GROUP BY JOB_ID
+ORDER BY average DESC;
