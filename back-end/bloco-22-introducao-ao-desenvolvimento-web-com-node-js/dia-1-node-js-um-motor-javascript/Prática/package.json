@@ -1,0 +1,23 @@
+{
+  "name": "imc",
+  "version": "1.0.0",
+  "description": "calcula IMC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "imc": "node imc.js",
+    "velocidade": "node velocidade.js",
+    "sorteio": "node sorteio.js"
+  },
+  "keywords": [
+    "imc",
+    "calculadora"
+  ],
+  "author": "Matheus Alves",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
