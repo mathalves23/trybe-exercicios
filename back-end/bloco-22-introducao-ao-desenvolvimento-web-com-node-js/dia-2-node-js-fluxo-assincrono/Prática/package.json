@@ -1,0 +1,13 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "exe2": "node exercicio2.js"
+  },
+  "author": "Matheus Alves",
+  "license": "ISC"
+}
